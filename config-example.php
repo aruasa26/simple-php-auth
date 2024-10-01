@@ -1,8 +1,15 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
+    /*
+    * This file contains an example of the configuration for the database
+    * Create a copy of this file and rename it to config.php
+    */
+
+    
+    // Database configuration - Replace with your database details
+    $servername = "";
+    $username = "";
     $password = "";
-    $dbname = "CAT1";
+    $dbname = "";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password);
