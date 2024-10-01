@@ -44,17 +44,25 @@ session_start();
                         </div>
 
                         <div class="mt-4">
+                            <label class="block font-medium text-sm text-gray-700" for="username">Username</label>
+                            <input type='text' 
+                                name='username'
+                                placeholder='Username...'
+                                class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#f84525]" />
+                        </div>
+
+                        <div class="mt-4">
                             <label class="block font-medium text-sm text-gray-700" for="email">Email</label>
                             <input type='email' 
                                 name='email'
-                                placeholder='Email'
+                                placeholder='Email...'
                                 class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#f84525]" />                   
                         </div>
 
                         <div class="mt-4">
                             <label class="block font-medium text-sm text-gray-700" for="password">Password</label>
                             <div class="relative">
-                                <input id="password" type="password" name="password" placeholder="Password" required autocomplete="new-password" class = 'w-full rounded-md py-2.5 px-4 border text-sm outline-[#f84525]'>
+                                <input id="password" type="password" name="password" placeholder="Password..." required autocomplete="new-password" class = 'w-full rounded-md py-2.5 px-4 border text-sm outline-[#f84525]'>
 
                                 <div class="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5">
                                     <button type="button" id="togglePassword" class="text-gray-500 focus:outline-none focus:text-gray-600 hover:text-gray-600">
