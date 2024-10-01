@@ -49,8 +49,10 @@
                     <h2 class="text-4xl font-bold sm:text-5xl">
                         Hello,
                         <span class="hidden sm:block text-4xl">
-                           <?php if(isset($_SESSION['username'])){
-                                 echo $_SESSION['username'];
+			<?php
+			   session_start();
+			   if(isset($_SESSION['email'])){
+                                 echo $_SESSION['email'];
                            } else {
                                  echo "Guest";
                            }?>
