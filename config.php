@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "simple_auth";
+    $dbname = "CAT1";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password);
