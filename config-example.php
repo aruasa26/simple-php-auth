@@ -6,10 +6,10 @@
 
     
     // Database configuration - Replace with your database details
-    $servername = "";
+    $servername = "Serveradmin";
     $username = "";
     $password = "";
-    $dbname = "";
+    $dbname = "CAT1";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password);
